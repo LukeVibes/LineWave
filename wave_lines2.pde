@@ -31,7 +31,7 @@ void draw() {
   
   t++;
   p++;
-  if(p>2000 || t>2200){
+  if(p>width || t>width){
     t = 0;
     p = 0;
     flux = 60;
